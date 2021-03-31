@@ -1,0 +1,72 @@
+/*
+ *              plik:           css/menu.css
+ *              autor:          Technetium [Tc]
+ *                              Marek Kleszyk
+ *                              27 sierpień 2009
+ *              system:         T.CMS-4.0-SEO
+ */
+
+/* --------- menu top ---------- */
+
+#menu-top .menu-item {
+    padding: 0 3px;
+    display: inline;
+    font-weight: bold;
+}
+
+#menu-top .menu-item-selected {
+    color: #000;
+}
+
+#menu-top .menu-item-last {
+}
+
+/* --------- menu left ---------- */
+
+#menu-left a {
+    padding: 0 3px;
+    display: block;
+    font-weight: bold;
+}
+
+#menu-left a.selected {
+    color: #000;
+}
+
+#menu-left a.last {
+}
+
+/* --------- menu bottom ---------- */
+
+#menu-bottom a {
+    padding: 0 3px;
+    display: inline;
+    font-weight: bold;
+}
+
+#menu-bottom a.selected {
+    color: #000;
+}
+
+#menu-bottom a.last {
+}
+
+/* --------- menu skroty ---------- */
+
+#skroty ul {
+    height: 15px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#skroty ul li {
+    padding: 0 1px;
+    display: inline;
+}
+
+#skroty ul li a, #skroty ul li strong {
+    color: #404040;
+    font-size: 7pt;
+}

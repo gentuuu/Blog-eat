@@ -1,0 +1,485 @@
+/*
+ *		plik:		css/style.css
+ *		autor: 		Technetium [Tc]
+ *             	Marek Kleszyk
+ *						27 sierpień 2009
+ *		system:		T.CMS-4.0-SEO
+*/
+
+@import url("menu.css");
+@import url("comments.css");
+
+/* --------- standardowe ---------- */
+
+#font_down {
+    font-weight: bold;
+    font-size: 7pt;
+}
+
+#font_or {
+    font-weight: bold;
+    font-size: 9pt;
+}
+
+#font_up {
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.print {
+    margin: 10px;
+    float: right;
+}
+
+.back {
+    margin: 10px;
+    float: left;
+}
+
+.tagi {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.page-title {
+    padding: 10px;
+}
+
+.page-content {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.formularz {
+    margin: 5px;
+}
+
+input.text, textarea, select {
+    border: 1px solid #555;
+    color: #444;
+    padding: 0 3px;
+    margin: 0 3px;
+}
+
+select {
+    padding-right: 0;
+}
+
+input.submit {
+    padding: 1px 3px;
+    background-color: #999;
+    border: none;
+    color: #444;
+    font-size: 9pt;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input.text:focus, select:focus, textarea:focus {
+    background: #eee;
+    border: 1px solid #888;
+    outline: 0
+}
+
+.image {
+    position: relative;
+    top: 5px;
+}
+
+/* --------- glowna ---------- */
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Tahoma", "Verdana", "Helvetica", "Arial", sans-serif;
+    font-size: 8pt;
+    color: #000;
+}
+
+#container {
+    width: 998px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+
+#top {
+    width: 998px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+#top #t1 {
+    width: 998px;
+    height: 200px;
+    background: transparent url('../img/top.jpg') no-repeat scroll 0 0;
+    float: left;
+}
+
+#top #t1 a {
+    position: relative;
+    top: 24px;
+}
+
+#top #menu-top {
+    width: 998px;
+    height: 20px;
+    float: left;
+}
+
+#base {
+    width: 998px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    float: left;
+}
+
+#nawigacja {
+    width: 988px;
+    height: 20px;
+    padding: 3px 5px;
+    background-color: #eee;
+    float: left;
+}
+
+#nawigacja #sciezka {
+    width: 790px;
+    height: auto;
+    padding: 2px;
+    float: left;
+}
+
+#nawigacja #sciezka a {
+    margin: 0 3px;
+    color: #42494b;
+}
+
+#nawigacja #font {
+    width: 194px;
+    height: auto;
+    text-align: right;
+    float: left;
+}
+
+#nawigacja #font a {
+    text-decoration: none;
+    margin: 0 4px;
+}
+
+#sidebar-left {
+    width: 198px;
+    min-height: 20px;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    float: left;
+}
+
+#content {
+    width: 800px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    float: left;
+}
+
+.zmieniarka {
+    overflow: hidden;
+    position: relative;
+}
+
+.zmieniarka .zmieniarka-item {
+    display: none;
+}
+
+.zmieniarka-glowna-size {
+    width: 800px;
+    height: 400px;
+}
+
+#footer {
+    width: 998px;
+    height: auto;
+    margin-top: 15px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+#footer #skroty {
+    width: 998px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+}
+
+#footer #menu-bottom {
+    width: 998px;
+    height: 20px;
+    text-align: right;
+    float: left;
+}
+
+#footer #copyright {
+    width: 459px;
+    height: 20px;
+    padding: 20px;
+    text-align: left;
+    float: left;
+}
+
+#footer #realizacja {
+    width: 459px;
+    height: 20px;
+    padding: 20px;
+    text-align: right;
+    position: relative;
+    float: left;
+}
+
+#footer #realizacja a {
+    color: #000;
+}
+
+/*---------galeria------*/
+.galeria
+{
+
+}
+
+.galeria .opis
+{
+
+}
+
+.galeria .row
+{
+    overflow:hidden;
+    clear:both;
+    margin-bottom:10px;
+}
+
+.galeria .row .item
+{
+    width:135px;
+    height:135px;
+    background:#fff;
+    float:left;
+    margin-right:10px;
+}
+
+.galeria .row .item_last
+{
+    margin-right:0px;
+}
+
+.galeria .row .item .middle
+{
+    height:135px;
+    width:135px;
+    display:table;
+    text-align:center;
+    line-height:135px;
+}
+
+.galeria .row .item .no-img
+{
+    border: 1px solid #aaaaaa;
+    height: 133px;
+    width: 133px;
+}
+
+.galeria .row .item .middle a
+{
+    display:table-cell;
+    vertical-align:middle;
+}
+
+#page-galerie .row .item
+{
+    height:155px;
+}
+
+#page-galerie .row .item .name
+{
+    height:20px;
+    line-height:20px;
+    text-align:center;
+}
+
+/* --------- rejestr zmian ---------- */
+
+table.rejestr {
+    width: 100%;
+    border: none;
+    margin: 2px;
+}
+
+table.rejestr td {
+    padding: 3px 1px;
+}
+
+table.rejestr td a {
+}
+
+table.rejestr td a:hover {
+}
+
+/* --------- aktualności ---------- */
+
+div.art {
+    padding: 5px 0;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #d5d1cb;
+}
+
+div.art-last {
+    border-bottom: none;
+}
+
+div.art div.art-title {
+    line-height: 20px;
+    padding-left: 12px;
+    font-weight: bold;
+    color: #0077b7;
+    font-size: 12px;
+    background: transparent url('../img/art-title.gif') no-repeat scroll 0 6px;
+}
+
+div.art div.art-title a {
+    color: #0077b7;
+}
+
+div.art div.art-date {
+    line-height: 20px;
+    color: #4a4a4a;
+    font-size: 9px;
+}
+
+div.art div.art-desc {
+
+}
+
+div.art div.art-desc .art-img {
+    margin: 0 10px 10px 0;
+    width: 162px;
+    height: 112px;
+    float: left;
+}
+
+div.art div.art-desc .art-no-img {
+    border: 1px solid #aaaaaa;
+    margin: 0 10px 10px 0;
+    width: 160px;
+    height: 110px;
+    float: left;
+    text-align: center;
+}
+
+div.art div.art-desc .art-no-img img {
+    margin-top: 20px;
+}
+
+div.art div.art-desc div.art-more {
+    margin-top: 15px;
+}
+
+div.art div.art-desc div.art-more a {
+    color: #262626;
+    text-decoration: underline;
+}
+
+/* --------- forum ---------- */
+
+ul#forum {
+    margin: 0 10px;
+    list-style: none;
+}
+
+ul#forum li {
+    margin: 5px 0;
+    padding: 0 0 3px 18px;
+    overflow: hidden;
+    background: transparent url(../img/li-for.png) no-repeat scroll 0 2px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+ul#forum li a {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+ul#forum li h2 a, ul#forum li h2 small {
+    color: #6e6e6e;
+}
+
+/* --------- mapa strony ---------- */
+
+.site1 {
+    padding: 3px 0;
+    padding-left: 15px;
+}
+
+.site2 {
+    padding: 3px 0;
+    padding-left: 35px;
+}
+
+/* --------- szukaj ---------- */
+
+.szukaj-brak {
+    color: #dd0000;
+    text-align: center;
+}
+
+.szukaj-fraza {
+    margin: 5px 0;
+    display: block;
+}
+
+.szukaj-content strong, .szukaj-content span {
+    color: #9c00ff;
+}
+
+.szukaj-wynik {
+    margin: 7px 0;
+    padding: 5px 0;
+    border-top: 1px solid #dfdfdf;
+    display: block;
+}
+
+.szukaj-wynik h1 {
+    font-size: 8pt;
+}
+
+.szukaj-link {
+    cursor: pointer;
+    font-size: 7pt;
+    display: block;
+}
+
+.szukaj-keyword {
+    color: red;
+}
+/* --------- newsletter ---------- */
+
+h1.regulamin {
+    font-size: 11pt;
+    text-align: center;
+    padding: 5px;
+    background: #000;
+    color: #fff;
+}
+
+/* ------------- users ------------*/
+
